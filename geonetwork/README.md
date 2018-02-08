@@ -20,8 +20,10 @@ WARNING:
 -	[`3.0.5-postgres`, `3.0-postgres` (*3.0.5/postgres/Dockerfile*)](https://github.com/geonetwork/docker-geonetwork/blob/e5cf5da76f557481c35b4a4d3e3cac77768a1302/3.0.5/postgres/Dockerfile)
 -	[`3.2.2`, `3.2` (*3.2.2/Dockerfile*)](https://github.com/geonetwork/docker-geonetwork/blob/a9d9f3f07c0f2b8badadb74206647d7f6dea4b24/3.2.2/Dockerfile)
 -	[`3.2.2-postgres`, `3.2-postgres` (*3.2.2/postgres/Dockerfile*)](https://github.com/geonetwork/docker-geonetwork/blob/7ba5f533d9ee31cf1a22d4d6a1a84fbb74f86466/3.2.2/postgres/Dockerfile)
--	[`3.4.0`, `3.4`, `latest` (*3.4.0/Dockerfile*)](https://github.com/geonetwork/docker-geonetwork/blob/067c56d23e1ea7a422e9883410b3db318b5f42b7/3.4.0/Dockerfile)
--	[`3.4.0-postgres`, `3.4-postgres`, `postgres` (*3.4.0/postgres/Dockerfile*)](https://github.com/geonetwork/docker-geonetwork/blob/067c56d23e1ea7a422e9883410b3db318b5f42b7/3.4.0/postgres/Dockerfile)
+-	[`3.4.1`, `3.4`, `latest` (*3.4.1/Dockerfile*)](https://github.com/geonetwork/docker-geonetwork/blob/01e3e23e9b277940dcac471099408695c6d12ae3/3.4.1/Dockerfile)
+-	[`3.4.1-postgres`, `3.4-postgres`, `latest-postgres` (*3.4.1/postgres/Dockerfile*)](https://github.com/geonetwork/docker-geonetwork/blob/01e3e23e9b277940dcac471099408695c6d12ae3/3.4.1/postgres/Dockerfile)
+
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/geonetwork/badge/icon) (`amd64/geonetwork` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/geonetwork/)
 
 # Quick reference
 
@@ -72,7 +74,7 @@ The project is part of the Open Source Geospatial Foundation ( [OSGeo](http://ww
 This command will start a debian-based container, running a Tomcat web server, with a geonetwork war deployed on the server:
 
 ```console
-$ docker run --name some-geonetwork -d geonetwork
+$ docker run --name some-geonetwork -d amd64/geonetwork
 ```
 
 ## Publish port
@@ -80,7 +82,7 @@ $ docker run --name some-geonetwork -d geonetwork
 Geonetwork listens on port `8080`. If you want to access the container at the host, **you must publish this port**. For instance, this, will redirect all the container traffic on port 8080, to the same port on the host:
 
 ```console
-$ docker run --name some-geonetwork -d -p 8080:8080 geonetwork
+$ docker run --name some-geonetwork -d -p 8080:8080 amd64/geonetwork
 ```
 
 Then, if you are running docker on Linux, you may access geonetwork at http://localhost:8080/geonetwork. Otherwise, replace `localhost` by the address of your docker machine.
@@ -94,7 +96,7 @@ By default, geonetwork sets the data directory on `/usr/local/tomcat/webapps/geo
 For instance, to set the data directory to `/var/lib/geonetwork_data`:
 
 ```console
-$ docker run --name some-geonetwork -d -p 8080:8080 -e DATA_DIR=/var/lib/geonetwork_data geonetwork
+$ docker run --name some-geonetwork -d -p 8080:8080 -e DATA_DIR=/var/lib/geonetwork_data amd64/geonetwork
 ```
 
 ## Persist data
@@ -102,7 +104,7 @@ $ docker run --name some-geonetwork -d -p 8080:8080 -e DATA_DIR=/var/lib/geonetw
 If you want the data directory to live beyond restarts, or even destruction of the container, you can mount a directory from the docker engine's host into the container. - `-v <host path>:<data directory>`. For instance this, will mount the host directory `/host/geonetwork-docker` into `/var/lib/geonetwork_data` on the container:
 
 ```console
-$ docker run --name some-geonetwork -d -p 8080:8080 -e DATA_DIR=/var/lib/geonetwork_data -v /host/geonetwork-docker:/var/lib/geonetwork_data geonetwork
+$ docker run --name some-geonetwork -d -p 8080:8080 -e DATA_DIR=/var/lib/geonetwork_data -v /host/geonetwork-docker:/var/lib/geonetwork_data amd64/geonetwork
 ```
 
 ## ... via [`docker stack deploy`](https://docs.docker.com/engine/reference/commandline/stack_deploy/) or [`docker-compose`](https://github.com/docker/compose)
