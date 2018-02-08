@@ -20,53 +20,30 @@ WARNING:
 
 -	[`1.10rc2-stretch`, `1.10-rc-stretch`, `rc-stretch` (*1.10-rc/stretch/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/stretch/Dockerfile)
 -	[`1.10rc2-alpine3.7`, `1.10-rc-alpine3.7`, `rc-alpine3.7`, `1.10rc2-alpine`, `1.10-rc-alpine`, `rc-alpine` (*1.10-rc/alpine3.7/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/alpine3.7/Dockerfile)
--	[`1.10rc2-windowsservercore-ltsc2016`, `1.10-rc-windowsservercore-ltsc2016`, `rc-windowsservercore-ltsc2016` (*1.10-rc/windows/windowsservercore-ltsc2016/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/windows/windowsservercore-ltsc2016/Dockerfile)
--	[`1.10rc2-windowsservercore-1709`, `1.10-rc-windowsservercore-1709`, `rc-windowsservercore-1709` (*1.10-rc/windows/windowsservercore-1709/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/windows/windowsservercore-1709/Dockerfile)
--	[`1.10rc2-nanoserver-sac2016`, `1.10-rc-nanoserver-sac2016`, `rc-nanoserver-sac2016` (*1.10-rc/windows/nanoserver-sac2016/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/windows/nanoserver-sac2016/Dockerfile)
 -	[`1.9.4-stretch`, `1.9-stretch`, `1-stretch`, `stretch` (*1.9/stretch/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/stretch/Dockerfile)
 -	[`1.9.4-alpine3.7`, `1.9-alpine3.7`, `1-alpine3.7`, `alpine3.7` (*1.9/alpine3.7/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/alpine3.7/Dockerfile)
 -	[`1.9.4-alpine3.6`, `1.9-alpine3.6`, `1-alpine3.6`, `alpine3.6`, `1.9.4-alpine`, `1.9-alpine`, `1-alpine`, `alpine` (*1.9/alpine3.6/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/alpine3.6/Dockerfile)
--	[`1.9.4-windowsservercore-ltsc2016`, `1.9-windowsservercore-ltsc2016`, `1-windowsservercore-ltsc2016`, `windowsservercore-ltsc2016` (*1.9/windows/windowsservercore-ltsc2016/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/windows/windowsservercore-ltsc2016/Dockerfile)
--	[`1.9.4-windowsservercore-1709`, `1.9-windowsservercore-1709`, `1-windowsservercore-1709`, `windowsservercore-1709` (*1.9/windows/windowsservercore-1709/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/windows/windowsservercore-1709/Dockerfile)
--	[`1.9.4-nanoserver-sac2016`, `1.9-nanoserver-sac2016`, `1-nanoserver-sac2016`, `nanoserver-sac2016` (*1.9/windows/nanoserver-sac2016/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/windows/nanoserver-sac2016/Dockerfile)
 -	[`1.8.7-stretch`, `1.8-stretch` (*1.8/stretch/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/stretch/Dockerfile)
 -	[`1.8.7-jessie`, `1.8-jessie` (*1.8/jessie/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/jessie/Dockerfile)
 -	[`1.8.7-alpine3.6`, `1.8-alpine3.6` (*1.8/alpine3.6/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/alpine3.6/Dockerfile)
--	[`1.8.7-alpine3.5`, `1.8-alpine3.5`, `1.8.7-alpine`, `1.8-alpine` (*1.8/alpine3.5/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/alpine3.5/Dockerfile)
 -	[`1.8.7-onbuild`, `1.8-onbuild` (*1.8/onbuild/Dockerfile*)](https://github.com/docker-library/golang/blob/132cd70768e3bc269902e4c7b579203f66dc9f64/1.8/onbuild/Dockerfile)
--	[`1.8.7-windowsservercore-ltsc2016`, `1.8-windowsservercore-ltsc2016` (*1.8/windows/windowsservercore-ltsc2016/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/windows/windowsservercore-ltsc2016/Dockerfile)
--	[`1.8.7-windowsservercore-1709`, `1.8-windowsservercore-1709` (*1.8/windows/windowsservercore-1709/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/windows/windowsservercore-1709/Dockerfile)
--	[`1.8.7-nanoserver-sac2016`, `1.8-nanoserver-sac2016` (*1.8/windows/nanoserver-sac2016/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/windows/nanoserver-sac2016/Dockerfile)
 
 ## Shared Tags
 
 -	`1.10rc2`, `1.10-rc`, `rc`:
 	-	[`1.10rc2-stretch` (*1.10-rc/stretch/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/stretch/Dockerfile)
-	-	[`1.10rc2-windowsservercore-ltsc2016` (*1.10-rc/windows/windowsservercore-ltsc2016/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/windows/windowsservercore-ltsc2016/Dockerfile)
-	-	[`1.10rc2-windowsservercore-1709` (*1.10-rc/windows/windowsservercore-1709/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/windows/windowsservercore-1709/Dockerfile)
 -	`1.10rc2-windowsservercore`, `1.10-rc-windowsservercore`, `rc-windowsservercore`:
-	-	[`1.10rc2-windowsservercore-ltsc2016` (*1.10-rc/windows/windowsservercore-ltsc2016/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/windows/windowsservercore-ltsc2016/Dockerfile)
-	-	[`1.10rc2-windowsservercore-1709` (*1.10-rc/windows/windowsservercore-1709/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/windows/windowsservercore-1709/Dockerfile)
 -	`1.10rc2-nanoserver`, `1.10-rc-nanoserver`, `rc-nanoserver`:
-	-	[`1.10rc2-nanoserver-sac2016` (*1.10-rc/windows/nanoserver-sac2016/Dockerfile*)](https://github.com/docker-library/golang/blob/75759d6b5bea61ea8347069221f2b03a48ee3f88/1.10-rc/windows/nanoserver-sac2016/Dockerfile)
 -	`1.9.4`, `1.9`, `1`, `latest`:
 	-	[`1.9.4-stretch` (*1.9/stretch/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/stretch/Dockerfile)
-	-	[`1.9.4-windowsservercore-ltsc2016` (*1.9/windows/windowsservercore-ltsc2016/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/windows/windowsservercore-ltsc2016/Dockerfile)
-	-	[`1.9.4-windowsservercore-1709` (*1.9/windows/windowsservercore-1709/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/windows/windowsservercore-1709/Dockerfile)
 -	`1.9.4-windowsservercore`, `1.9-windowsservercore`, `1-windowsservercore`, `windowsservercore`:
-	-	[`1.9.4-windowsservercore-ltsc2016` (*1.9/windows/windowsservercore-ltsc2016/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/windows/windowsservercore-ltsc2016/Dockerfile)
-	-	[`1.9.4-windowsservercore-1709` (*1.9/windows/windowsservercore-1709/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/windows/windowsservercore-1709/Dockerfile)
 -	`1.9.4-nanoserver`, `1.9-nanoserver`, `1-nanoserver`, `nanoserver`:
-	-	[`1.9.4-nanoserver-sac2016` (*1.9/windows/nanoserver-sac2016/Dockerfile*)](https://github.com/docker-library/golang/blob/366fe83ed839938cd04b2d546a06e2aee25a39a2/1.9/windows/nanoserver-sac2016/Dockerfile)
 -	`1.8.7`, `1.8`:
 	-	[`1.8.7-jessie` (*1.8/jessie/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/jessie/Dockerfile)
-	-	[`1.8.7-windowsservercore-ltsc2016` (*1.8/windows/windowsservercore-ltsc2016/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/windows/windowsservercore-ltsc2016/Dockerfile)
-	-	[`1.8.7-windowsservercore-1709` (*1.8/windows/windowsservercore-1709/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/windows/windowsservercore-1709/Dockerfile)
 -	`1.8.7-windowsservercore`, `1.8-windowsservercore`:
-	-	[`1.8.7-windowsservercore-ltsc2016` (*1.8/windows/windowsservercore-ltsc2016/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/windows/windowsservercore-ltsc2016/Dockerfile)
-	-	[`1.8.7-windowsservercore-1709` (*1.8/windows/windowsservercore-1709/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/windows/windowsservercore-1709/Dockerfile)
 -	`1.8.7-nanoserver`, `1.8-nanoserver`:
-	-	[`1.8.7-nanoserver-sac2016` (*1.8/windows/nanoserver-sac2016/Dockerfile*)](https://github.com/docker-library/golang/blob/e63ba9c5efb040b35b71e16722b71b2931f29eb8/1.8/windows/nanoserver-sac2016/Dockerfile)
+
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/golang/badge/icon) (`arm64v8/golang` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/golang/)
 
 # Quick reference
 
@@ -111,7 +88,7 @@ Go (a.k.a., Golang) is a programming language first developed at Google. It is a
 The most straightforward way to use this image is to use a Go container as both the build and runtime environment. In your `Dockerfile`, writing something along the lines of the following will compile and run your project:
 
 ```dockerfile
-FROM golang:1.8
+FROM arm64v8/golang:1.8
 
 WORKDIR /go/src/app
 COPY . .
@@ -134,13 +111,13 @@ $ docker run -it --rm --name my-running-app my-golang-app
 There may be occasions where it is not appropriate to run your app inside a container. To compile, but not run your app inside the Docker instance, you can write something like:
 
 ```console
-$ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp golang:1.8 go build -v
+$ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp arm64v8/golang:1.8 go build -v
 ```
 
 This will add your current directory as a volume to the container, set the working directory to the volume, and run the command `go build` which will tell go to compile the project in the working directory and output the executable to `myapp`. Alternatively, if you have a `Makefile`, you can run the `make` command inside your container.
 
 ```console
-$ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp golang:1.8 make
+$ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp arm64v8/golang:1.8 make
 ```
 
 ## Cross-compile your app inside the Docker container
@@ -148,13 +125,13 @@ $ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp golang:1.8 make
 If you need to compile your application for a platform other than `linux/amd64` (such as `windows/386`):
 
 ```console
-$ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp -e GOOS=windows -e GOARCH=386 golang:1.8 go build -v
+$ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp -e GOOS=windows -e GOARCH=386 arm64v8/golang:1.8 go build -v
 ```
 
 Alternatively, you can build for multiple platforms at once:
 
 ```console
-$ docker run --rm -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp golang:1.8 bash
+$ docker run --rm -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp arm64v8/golang:1.8 bash
 $ for GOOS in darwin linux; do
 >   for GOARCH in 386 amd64; do
 >     go build -v -o myapp-$GOOS-$GOARCH
@@ -164,13 +141,13 @@ $ for GOOS in darwin linux; do
 
 # Image Variants
 
-The `golang` images come in many flavors, each designed for a specific use case.
+The `arm64v8/golang` images come in many flavors, each designed for a specific use case.
 
-## `golang:<version>`
+## `arm64v8/golang:<version>`
 
 This is the defacto image. If you are unsure about what your needs are, you probably want to use this one. It is designed to be used both as a throw away container (mount your source code and start the container to start your app), as well as the base to build other images off of.
 
-## `golang:alpine`
+## `arm64v8/golang:alpine`
 
 This image is based on the popular [Alpine Linux project](http://alpinelinux.org), available in [the `alpine` official image](https://hub.docker.com/_/alpine). Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.
 
@@ -178,7 +155,7 @@ This variant is highly recommended when final image size being as small as possi
 
 To minimize image size, it's uncommon for additional related tools (such as `git` or `bash`) to be included in Alpine-based images. Using this image as a base, add the things you need in your own Dockerfile (see the [`alpine` image description](https://hub.docker.com/_/alpine/) for examples of how to install packages if you are unfamiliar).
 
-## `golang:onbuild`
+## `arm64v8/golang:onbuild`
 
 The `ONBUILD` image variants are deprecated, and their usage is discouraged. For more details, see [docker-library/official-images#2076](https://github.com/docker-library/official-images/issues/2076).
 
